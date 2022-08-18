@@ -7,6 +7,8 @@
     font-family: "Roboto", sans-serif;
 }
 
+
+
 /*--------------------Navigation---------------------*/
 .navigation {
     background-color: #1f2937;
@@ -47,6 +49,7 @@ header {
     display: flex;
     padding: 50px 200px;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .left-side {
@@ -92,3 +95,35 @@ button {
     color: #f9faf8;
 }
 
+
+/*--------------------Header---------------------*/
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-heading {
+    margin: 35px 0;
+}
+
+.random-info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.image-border {
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.image-caption {
+    width: 150px;
+    text-align: center;
+    color: #1f2937;
+    margin-top: 5px;
+}

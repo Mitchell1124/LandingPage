@@ -46,10 +46,16 @@ header {
 .header-content {
     display: flex;
     padding: 50px 200px;
+    justify-content: center;
 }
 
 .left-side {
     max-width: 500px;
+}
+
+.header-caption {
+    width: 400px;
+    margin-top: 10px;
 }
 
 button {
@@ -61,6 +67,23 @@ button {
     height: 30px;
     font-size: 18px;
     text-align: center;
+}
+
+.sign-up-btn {
+    margin-top: 20px;
+}
+
+.img-placeholder {
+    background-color: #e5e7eb;
+    width: 500px; 
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    color: #000;
 }
 
 .page-header {
